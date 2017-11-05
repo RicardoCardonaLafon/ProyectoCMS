@@ -45,7 +45,7 @@ if ( ! azera_shop_general_repeater_is_empty( $azera_shop_shortcodes_section ) ) 
 							<div class="sub-heading"><?php echo wp_kses_post( $subtitle ); ?></div>
 							<?php
 						}
-						?>
+						?><button onclick="window.location='http://localhost/categoria-producto/ofertas-mensuales/'" class="btn btn-primary standard-button ofertas-semanales" type="button" data-toggle="modal" data-target="#stamp-modal">Ofertas mes</button>
 					</div>
 
 					<?php

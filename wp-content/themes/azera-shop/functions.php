@@ -1168,3 +1168,44 @@ function azera_shop_themeisle_sdk(){
 azera_shop_themeisle_sdk(); 
 
  
+function woocommerce_after_shop_loop_item_title_short_description() {
+	global $product;
+	if ( ! $product->post->post_excerpt ) return;
+	?>
+	<div itemprop="description">
+		<?php echo apply_filters( 'woocommerce_short_description', $product->post->post_excerpt ) ?>
+	</div>
+	<?php
+}
+add_action('woocommerce_after_shop_loop_item_title', 'woocommerce_after_shop_loop_item_title_short_description', 5);
+
+function give_profile_name(){
+    $user=wp_get_current_user();
+    $name=$user->display_name; 
+    return $name;
+}
+add_shortcode('profile_name', 'give_profile_name');
+add_filter( 'wp_nav_menu_objects', 'my_dynamic_menu_items' );
+function my_dynamic_menu_items( $menu_items ) {
+	$menu_items2;
+    foreach ( $menu_items as $menu_item ) {
+    	if ( $menu_item->menu_item_parent == 103 && !is_user_logged_in()) {
+    		$menu_item = null;
+    	}
+        if ( '#profile_name#' == $menu_item->title ) {
+            global $shortcode_tags;
+            if ( isset( $shortcode_tags['profile_name'] ) ) {
+                // Or do_shortcode(), if you must.
+                if(is_user_logged_in())
+    			{
+                	$menu_item->title = call_user_func( $shortcode_tags['profile_name'] );
+                } else {
+                	$menu_item->title = "Ingresar";
+                	$menu_item->classes = null;
+                }
+            }    
+        }
+       	$menu_items2[] = $menu_item;
+    }
+    return $menu_items2;
+} 

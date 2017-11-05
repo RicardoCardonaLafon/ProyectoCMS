@@ -1,0 +1,83 @@
+2017-11-05T00:14:21+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function give_profile_name(), 0 passed in C:\xampp\htdocs\wp-content\themes\azera-shop\functions.php on line 1197 and exactly 1 expected in C:\xampp\htdocs\wp-content\themes\azera-shop\functions.php:1182
+Stack trace:
+#0 C:\xampp\htdocs\wp-content\themes\azera-shop\functions.php(1197): give_profile_name()
+#1 C:\xampp\htdocs\wp-includes\class-wp-hook.php(300): my_dynamic_menu_items(Array)
+#2 C:\xampp\htdocs\wp-includes\plugin.php(203): WP_Hook->apply_filters(Array, Array)
+#3 C:\xampp\htdocs\wp-includes\nav-menu-template.php(189): apply_filters('wp_nav_menu_obj...', Array, Object(stdClass))
+#4 C:\xampp\htdocs\wp-includes\class-wp-customize-nav-menus.php(1391): wp_nav_menu(Object(stdClass))
+#5 C:\xampp\htdocs\wp-includes\customize\class-wp-customize-partial.php(217): WP_Customize_Nav_Menus->render_nav_menu_partial(NULL, Array)
+#6 C:\xampp\htdocs\wp-includes\customize\class-wp-customize-selective-refresh.php(402): WP_Customize_Partial->render(Array)
+#7 C:\xampp\htd
+
+2017-11-05T00:14:22+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function give_profile_name(), 0 passed in C:\xampp\htdocs\wp-content\themes\azera-shop\functions.php on line 1197 and exactly 1 expected in C:\xampp\htdocs\wp-content\themes\azera-shop\functions.php:1182
+Stack trace:
+#0 C:\xampp\htdocs\wp-content\themes\azera-shop\functions.php(1197): give_profile_name()
+#1 C:\xampp\htdocs\wp-includes\class-wp-hook.php(300): my_dynamic_menu_items(Array)
+#2 C:\xampp\htdocs\wp-includes\plugin.php(203): WP_Hook->apply_filters(Array, Array)
+#3 C:\xampp\htdocs\wp-includes\nav-menu-template.php(189): apply_filters('wp_nav_menu_obj...', Array, Object(stdClass))
+#4 C:\xampp\htdocs\wp-content\themes\azera-shop\header.php(143): wp_nav_menu(Object(stdClass))
+#5 C:\xampp\htdocs\wp-includes\template.php(688): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\wp-includes\template.php(647): load_template('C:\\xampp\\htdocs...', true)
+#7 C:\xampp\htdocs\wp-includes\general-template.php(45): locate_template(Array, true)
+#8 C:\xampp\htdoc
+
+2017-11-05T00:14:32+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function give_profile_name(), 0 passed in C:\xampp\htdocs\wp-content\themes\azera-shop\functions.php on line 1197 and exactly 1 expected in C:\xampp\htdocs\wp-content\themes\azera-shop\functions.php:1182
+Stack trace:
+#0 C:\xampp\htdocs\wp-content\themes\azera-shop\functions.php(1197): give_profile_name()
+#1 C:\xampp\htdocs\wp-includes\class-wp-hook.php(300): my_dynamic_menu_items(Array)
+#2 C:\xampp\htdocs\wp-includes\plugin.php(203): WP_Hook->apply_filters(Array, Array)
+#3 C:\xampp\htdocs\wp-includes\nav-menu-template.php(189): apply_filters('wp_nav_menu_obj...', Array, Object(stdClass))
+#4 C:\xampp\htdocs\wp-content\themes\azera-shop\header.php(143): wp_nav_menu(Object(stdClass))
+#5 C:\xampp\htdocs\wp-includes\template.php(688): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\wp-includes\template.php(647): load_template('C:\\xampp\\htdocs...', true)
+#7 C:\xampp\htdocs\wp-includes\general-template.php(45): locate_template(Array, true)
+#8 C:\xampp\htdoc
+
+2017-11-05T00:14:47+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function give_profile_name(), 0 passed in C:\xampp\htdocs\wp-content\themes\azera-shop\functions.php on line 1197 and exactly 1 expected in C:\xampp\htdocs\wp-content\themes\azera-shop\functions.php:1182
+Stack trace:
+#0 C:\xampp\htdocs\wp-content\themes\azera-shop\functions.php(1197): give_profile_name()
+#1 C:\xampp\htdocs\wp-includes\class-wp-hook.php(300): my_dynamic_menu_items(Array)
+#2 C:\xampp\htdocs\wp-includes\plugin.php(203): WP_Hook->apply_filters(Array, Array)
+#3 C:\xampp\htdocs\wp-includes\nav-menu-template.php(189): apply_filters('wp_nav_menu_obj...', Array, Object(stdClass))
+#4 C:\xampp\htdocs\wp-content\themes\azera-shop\header.php(143): wp_nav_menu(Object(stdClass))
+#5 C:\xampp\htdocs\wp-includes\template.php(688): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\wp-includes\template.php(647): load_template('C:\\xampp\\htdocs...', true)
+#7 C:\xampp\htdocs\wp-includes\general-template.php(45): locate_template(Array, true)
+#8 C:\xampp\htdoc
+
+2017-11-05T00:14:52+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function give_profile_name(), 0 passed in C:\xampp\htdocs\wp-content\themes\azera-shop\functions.php on line 1197 and exactly 1 expected in C:\xampp\htdocs\wp-content\themes\azera-shop\functions.php:1182
+Stack trace:
+#0 C:\xampp\htdocs\wp-content\themes\azera-shop\functions.php(1197): give_profile_name()
+#1 C:\xampp\htdocs\wp-includes\class-wp-hook.php(300): my_dynamic_menu_items(Array)
+#2 C:\xampp\htdocs\wp-includes\plugin.php(203): WP_Hook->apply_filters(Array, Array)
+#3 C:\xampp\htdocs\wp-includes\nav-menu-template.php(189): apply_filters('wp_nav_menu_obj...', Array, Object(stdClass))
+#4 C:\xampp\htdocs\wp-content\themes\azera-shop\header.php(143): wp_nav_menu(Object(stdClass))
+#5 C:\xampp\htdocs\wp-includes\template.php(688): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\wp-includes\template.php(647): load_template('C:\\xampp\\htdocs...', true)
+#7 C:\xampp\htdocs\wp-includes\general-template.php(45): locate_template(Array, true)
+#8 C:\xampp\htdoc
+
+2017-11-05T00:15:53+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function give_profile_name(), 0 passed in C:\xampp\htdocs\wp-content\themes\azera-shop\functions.php on line 1197 and exactly 1 expected in C:\xampp\htdocs\wp-content\themes\azera-shop\functions.php:1182
+Stack trace:
+#0 C:\xampp\htdocs\wp-content\themes\azera-shop\functions.php(1197): give_profile_name()
+#1 C:\xampp\htdocs\wp-includes\class-wp-hook.php(300): my_dynamic_menu_items(Array)
+#2 C:\xampp\htdocs\wp-includes\plugin.php(203): WP_Hook->apply_filters(Array, Array)
+#3 C:\xampp\htdocs\wp-includes\nav-menu-template.php(189): apply_filters('wp_nav_menu_obj...', Array, Object(stdClass))
+#4 C:\xampp\htdocs\wp-content\themes\azera-shop\header.php(143): wp_nav_menu(Object(stdClass))
+#5 C:\xampp\htdocs\wp-includes\template.php(688): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\wp-includes\template.php(647): load_template('C:\\xampp\\htdocs...', true)
+#7 C:\xampp\htdocs\wp-includes\general-template.php(45): locate_template(Array, true)
+#8 C:\xampp\htdoc
+
+2017-11-05T00:19:42+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function give_profile_name(), 0 passed in C:\xampp\htdocs\wp-content\themes\azera-shop\functions.php on line 1197 and exactly 1 expected in C:\xampp\htdocs\wp-content\themes\azera-shop\functions.php:1182
+Stack trace:
+#0 C:\xampp\htdocs\wp-content\themes\azera-shop\functions.php(1197): give_profile_name()
+#1 C:\xampp\htdocs\wp-includes\class-wp-hook.php(300): my_dynamic_menu_items(Array)
+#2 C:\xampp\htdocs\wp-includes\plugin.php(203): WP_Hook->apply_filters(Array, Array)
+#3 C:\xampp\htdocs\wp-includes\nav-menu-template.php(189): apply_filters('wp_nav_menu_obj...', Array, Object(stdClass))
+#4 C:\xampp\htdocs\wp-content\themes\azera-shop\header.php(143): wp_nav_menu(Object(stdClass))
+#5 C:\xampp\htdocs\wp-includes\template.php(688): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\wp-includes\template.php(647): load_template('C:\\xampp\\htdocs...', true)
+#7 C:\xampp\htdocs\wp-includes\general-template.php(45): locate_template(Array, true)
+#8 C:\xampp\htdoc
+
